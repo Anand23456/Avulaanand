@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+.card {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(240, 1, 1, 0.895);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.card-header {
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-name {
+    font-size: 18px;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.card-icons {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-icons i {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.icon-text {
+    font-size: 14px;
+}
+
+
+.heart-icon {
+    animation: heartBeat 0.5s ease-in-out;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -60%);
+}

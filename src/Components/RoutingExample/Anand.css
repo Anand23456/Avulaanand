@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+ul{
+   list-style: none;
+   padding-left: 0px;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    padding: 10px;
+}
+li{
+    padding-left: 0px;
+   padding-top: 5px;
+   color: red;
+   background-color: aquamarine;
+
+}
+h1{
+    color:greenyellow
+}
