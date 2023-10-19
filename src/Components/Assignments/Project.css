@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(155, 148, 148);
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
     font-size: 18px;
 }
 
-.card-image img {
+.card-MemePost img {
     width: 100%;
     display: block;
     position: relative;
